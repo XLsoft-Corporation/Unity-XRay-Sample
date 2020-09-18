@@ -1,6 +1,6 @@
 # Kudan Unity X-Ray Sample
 
-Unity X-Ray Sample using Kudan AR SDK (Compatible with Unity 2018.x)
+Unity X-Ray Sample using Kudan AR SDK
 
 The Unity X-Ray Sample uses a stencil buffer, along with some alpha transparency, to achieve occlusion. The buffer makes a portal effect, making the contents of the box only visible through its lid. Place the marker flat on top of a box and give it a try. This is only used with marker tracking in our sample.
 
@@ -37,7 +37,7 @@ Add a camera usage description in the appropriate field. Since Kudan uses the ca
 
 Build the app by going to File -> Build Settings, selecting iOS and clicking Build. Unity will build the selected scenes and produce an XCode project in the selected folder.
 
-- Disable Bitcode, go to the Build Settings tab of your workspace, scroll down to Build Options, and set Enable Bitcode to No.
+- - Disable Bitcode: If you are using Unity 2017/2018, go to the Build Settings tab of your workspace, scroll down to Build Options, and set Enable Bitcode to No.
 - Run the XCode project
 
 For any additional questions or concerns, visit the [XLsoft Kudan Developer Hub](https://www.xlsoft.com/doc/kudan/?utm_source=external&utm_medium=github&utm_campaign=xlsoft_Unity-XRay-Sample).
